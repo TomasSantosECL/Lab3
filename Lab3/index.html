@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Tomás Santos" content="Capitais Europeias">
+    <title>Capitais Europeias</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .capitais {
+            display: flex;
+            flex-flow: row wrap;          
+            justify-content: space-around; 
+            align-items: center;           
+            background-color: rgb(223, 205, 205); 
+            padding: 50px;
+            gap: 20px;                    
+        }
+
+        .capitais > div {
+            display: flex;
+            flex-direction: column;       
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            border-radius: 20px;          
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+            padding: 15px;
+            width: 180px;                 
+            transition: transform 0.3s;   
+        }
+
+        .capitais > div:hover {
+            transform: scale(1.50);       
+        }
+
+        .capitais img {
+            width: 100%;                  
+            height: auto;                 
+            border-radius: 15px 15px 0 0; 
+        }
+
+        .capitais p {
+            margin: 10px 0 0 0;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #333;                  
+            text-align: center;
+        }
+
+        
+        .capitais a {
+            text-decoration: none;        
+            color: inherit;                
+        }   
+    </style>
+</head>
+<body>
+    <h1>Capitais Europeias</h1>
+
+    <div class="capitais">
+        <div>
+            <a href="https://pt.wikipedia.org/wiki/Lisboa" target="_blank">
+            <img src="imagens/Lisboa.png" alt="Lisboa">
+            <p>Lisboa</p>
+        </a>
+        </div>
+
+        <div>
+            <a href="https://pt.wikipedia.org/wiki/Madrid" target="_blank">
+            <img src="imagens/Madrid.png" alt="Madrid">
+            <p>Madrid</p>
+        </a>
+        </div>
+
+        <div>
+            <a href="https://pt.wikipedia.org/wiki/Paris" target="_blank">
+            <img src="imagens/paris.png" alt="Paris">
+            <p>Paris</p>
+        </a>
+        </div>
+
+        <div>
+            <a href="https://pt.wikipedia.org/wiki/Berlin" target="_blank">
+            <img src="imagens/berlin.png" alt="Berlin">
+            <p>Berlin</p>
+        </a>
+        </div>
+
+        <div>
+            <a href="https://pt.wikipedia.org/wiki/Bruxelas" target="_blank">
+            <img src="imagens/bruxelas.png" alt="Bruxelas">
+            <p>Bruxelas</p>
+        </a>
+        </div>
+
+        <div>
+            <a href="https://pt.wikipedia.org/wiki/Sófia" target="_blank">
+            <img src="imagens/sofia.png" alt="Sófia">
+            <p>Sófia</p>
+        </a>
+        </div>
+
+        <div>
+            <a href="https://pt.wikipedia.org/wiki/Praga" target="_blank">
+            <img src="imagens/praga.png" alt="Praga">
+            <p>Praga</p>
+        </a>
+        </div>
+
+        <div>
+            <a href="https://pt.wikipedia.org/wiki/Roma" target="_blank">
+            <img src="imagens/roma.png" alt="Roma">
+            <p>Roma</p>
+        </a>
+        </div>
+
+    </div>
+</body>
+</html>
